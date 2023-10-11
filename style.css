@@ -9,7 +9,7 @@
 
 body {
     min-height: 100vh;
-    background: url('pastel-background-with-aesthetic-pink-sky.jpg') no-repeat;
+    background: url('stars-night-textured-backdrop.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -28,16 +28,18 @@ body {
 }
 
 .logo {
+    width: 20px;
+    height: 20px;
     font-size: 32px;
-    color: black;
+    color: white;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navbar a {
     position: relative;
     font-size: 18px;
-    color:black;
+    color:white;
     font-weight: 500;
     text-decoration: none;
     margin-left: 40px;
@@ -57,3 +59,49 @@ body {
 .navbar a:hover::before {
     width: 100%
 }
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: beige;
+    margin-bottom: 20px;
+}
+span{
+    color: darkslateblue;
+}
+
+.detel p{
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+
+.detel a{
+   background: darkslateblue;
+   padding: 10px 18px;
+   text-decoration: none;
+   font-weight: bold;
+   color: aliceblue;
+   display: inline-block;
+   margin: 30px 0;
+   border-radius: 5px;
+}
+
+.images{
+    width: 80%;
+    height: 45%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
+
